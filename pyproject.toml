@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cred-server"
+version = "0.1.0"
+description = "cursed tech for client only secret handling"
+authors = ["lexcheshir"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
